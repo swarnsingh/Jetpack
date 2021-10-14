@@ -1,0 +1,37 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Idea/AS
+.idea/*
+!.idea/codeStyles
+.idea/codeStyles/*
+!.idea/codeStyles/codeStyleConfig.xml
+# Now before changing the above 4 lines, you are probably using CodeStyle incorrectly, if the codestyle
+# files got changed, you have moved away from the project's code style settings as set in gradle.properites.
+# In your IDE, ensure that you have the "Project" code style selected. See AAC-424 for full comments.
+
+# .idea
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+# Android Studio 3 in .gitignore file.
+.idea/caches
+.idea/modules.xml
+# Comment next line if keeping position of elements in Navigation Editor is relevant for you
+.idea/navEditor.xml
+
+
+# Secret Keys
+apikey.properties
+
